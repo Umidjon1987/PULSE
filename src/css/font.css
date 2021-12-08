@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?e1dukq');
+  src:  url('../fonts/icomoon.eot?e1dukq#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?e1dukq') format('truetype'),
+    url('../fonts/icomoon.woff?e1dukq') format('woff'),
+    url('../fonts/icomoon.svg?e1dukq#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-accusoft:before {
+  content: "\e900";
+  color: #ff7e4a;
+}
+.icon-addthis:before {
+  content: "\e901";
+  color: #ff6550;
+}
+.icon-anaconda:before {
+  content: "\e902";
+  color: #42b029;
+}
+.icon-anchor:before {
+  content: "\e903";
+  color: #8940fa;
+}
+.icon-applemusic:before {
+  content: "\e904";
+}
+.icon-applepodcasts:before {
+  content: "\e905";
+  color: #93c;
+}
