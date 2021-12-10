@@ -1,5 +1,124 @@
 @media (max-width: 991px){
-.promo{
+.promo {
     padding: 21px 20px 93px 20px;
+    }
+.advantages {
+    padding: 70px 20px 80px 20px;
+    }
+.consultation {
+    padding: 100px 20px 92px 20px;
+    }
 }
+
+@media (max-width: 767px) {
+.header {
+    &__official {
+        span {
+           font-size: 12px;  
+        }   
+    }
+    &__phone {
+        font-size: 16px;
+    }
+}
+.promo {
+    &__wrapper {
+        align-items: center;
+    }
+    &__header {
+        font-size: 38px;
+    }
+    &__subheader {
+        font-size: 19px;
+    }
+}
+.advantages {
+    &__descr {
+        a {
+           font-size: 10px;
+        }
+    }
+}
+.consultation {
+    padding: 50px 0 50px 0;
+    &__descr {
+        font-size: 17px;
+        text-align: center;
+    }
+    
+}
+.title {
+    font-size: 32px;
+    &_left {
+        text-align: center;
+    }
+
+}
+.feed-form {
+   margin: 0 auto;
+   margin-top: 36px;
+
+}
+
+}
+
+@media (max-width:415px) {
+.header {
+        &__logo {
+            width: 200px;
+        }
+        &__official {
+            font-size: 10px;
+            span {
+               font-size: 8px;  
+            }   
+        }
+        &__phone {
+            font-size: 10px;
+            font-weight: 600;
+            text-align: center;
+        }
+        &__contacts {
+            align-items: center;
+        }
+    }
+.button {
+        width: 100px;
+        height: 25x;
+        font-weight: 600;
+        font-size: 9px;
+   
+    }
+.promo {
+        &__wrapper {
+            align-items: center;
+        }
+        &__header {
+            font-size: 32px;
+        }
+        &__subheader {
+            font-size: 17px;
+            text-align: center;
+        }
+        &__icons {
+            width: 390px;
+              
+        }
+        &__icon {
+            width: 175px;
+            font-size: 15px;
+            
+        }
+        .button {
+            &_main {
+                margin-top: 67px;
+                width: 230px;
+                height: 50px;
+                font-size: 13px;
+          
+            }
+
+        }
+    }
+
 }
