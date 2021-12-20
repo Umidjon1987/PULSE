@@ -62,7 +62,7 @@
 
 }
 
-@media (max-width:415px) {
+@media (max-width: 415px) {
 .header {
         &__logo {
             width: 200px;
@@ -95,6 +95,7 @@
         }
         &__header {
             font-size: 32px;
+            text-align: center;
         }
         &__subheader {
             font-size: 17px;
@@ -121,4 +122,30 @@
         }
     }
 
+.advantages {
+    &__subtitle {
+        text-align: center;
+    }
+    &__descr {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+}
+
+.title {
+    font-size: 42px;
+    }
+
+.carousel {
+    &__inner {
+            img {
+            width: 100%;
+        }
+    }
+    }
+.slick-slide{
+    position: relative;
+    display: block;
+    width: 250px;
+}
 }

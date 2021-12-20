@@ -5,7 +5,7 @@
         width: 750px;
         margin: 0 auto;
     }
-    .carousel-control-prev, .carousel-control-next {
+    .slick-prev, .slick-next {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -18,7 +18,7 @@
 
         }
     }
-    .carousel-control-next {
+    .slick-next {
         right: -66px;
         left: auto;
     }
