@@ -52,6 +52,16 @@
         padding: 20px 20px 26px 20px;
         overflow: hidden;
         margin-bottom: 20px;
+        &__content1{
+            width: 100%;
+            margin-right: 0px;
+            transform: translateX(-100%);
+            transition: 0.5s all;
+            &_active {
+                transform: translateX(0%);
+                margin-right: 20px;
+            }
+        }
         &__img {
             display: block;
             margin: 0 auto;
@@ -74,7 +84,7 @@
         }
         &__link {
             display: block;
-            margin-top: 10px;
+            margin-top: 25px;
             font-weight: 500;
             font-size: 14px;
             text-align: center;
@@ -113,30 +123,24 @@
             display: flex;
             width: calc(200% + 40px);
         }
-        &__content {
-            width: 50%;
+
+        &__content2{
+            width: 100%;
             margin-right: 0px;
-            transform: translateX(-100%);
+            transform: translateX(0%);
             transition: 0.5s all;
             &_active {
-                transform: translateX(0%);
+                transform: translateX(-100%);
                 margin-right: 20px;
             }
         }
         &__list {
             position: relative;
-            width: 50%;
             margin-left: 20px;
-            transform: translateX(0%);
             padding-right: 20px;
-            transition: 0.5s all;
             padding-left: 19px;
             margin-bottom: 0;
             list-style-type: none;
-            &_active {
-                transform: translateX(-100%);
-                margin-right: 0px;
-            }
             li {
                 position: relative;
                 font-weight: 300;
@@ -157,6 +161,7 @@
         }
         &__back {
             position: absolute;
+            margin-top: 25px;
             bottom: 0;
             left: 50%;
             transform: translateX(calc(-50% - 19px));
@@ -172,4 +177,6 @@
         }
 
     }
+
 }
+
